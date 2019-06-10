@@ -87,7 +87,7 @@
         </ListBox>-->
 
         <!--Middle column-->
-        <TextBox Grid.Row="0" Grid.Column="1" x:Name="Title" FontSize="36" Text="Title" TextAlignment="Center" FontWeight="Bold" VerticalAlignment="Stretch"/>
+        <TextBox Grid.Row="0" Grid.Column="1" x:Name="Titletxt" FontSize="36" Text="Title" TextAlignment="Center" FontWeight="Bold" VerticalAlignment="Stretch"/>
         <TextBox Grid.RowSpan="2" Grid.Row="1" Grid.Column="1" x:Name="Content" TextWrapping="Wrap" AcceptsReturn="True" FontSize="20" VerticalScrollBarVisibility="Visible" Text=" "/>
         <DockPanel Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" Margin="15,0,16,0" Width="440">
             <Button x:Name="SaveButton" Content="Save" Click="SaveButton_Click" Margin="10" HorizontalAlignment="Stretch" MinWidth="200"/>
